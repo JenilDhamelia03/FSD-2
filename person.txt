@@ -1,0 +1,11 @@
+db.person.find({gen:"female"}, {name:1, age:1, dep:1})
+
+db.person.updateMany({}, {$inc:{sal:5000}})
+
+db.person.find({}).sort({dep:1})
+
+db.person.updateMany({gen:"male"}, {$set:{gen:"female"}})
+
+db.person.deleteMany({$and:[{sal:{$gt:70000}}, {age:{$gt:50}}]}
+
+db.person.find({gen: /^f/, dep: /a$/})

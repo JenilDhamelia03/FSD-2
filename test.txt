@@ -1,0 +1,9 @@
+Collection : Student
+Document : NAME, AGE, STANDARD, PERCENTAGE
+INSERT 10 random records
+QUERY:
+find NAME of all students age>5
+update the STANDARD for all student by 1
+arrange all records in dec order of age
+show the name of the oldest student
+delete the record of a student if the standard is 12
